@@ -1,6 +1,6 @@
 const razorpay=require('../config/razorpay');
 const crypto=require('crypto');
-
+// Create Order
 exports.createOrder=async(req,res)=>{
   try{
     const{amount,courseId}=req.body;
